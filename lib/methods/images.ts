@@ -12,7 +12,7 @@ import {FullPageScreenshotsData} from './screenshots.interfaces';
 import {Executor} from './methods.interface';
 import {CompareData} from '../resemble/compare.interfaces';
 
-const {createCanvas, loadImage} = require('canvas');
+const {createCanvas, loadImage} = require('canvas-prebuilt');
 
 /**
  * Check if the image exists and create a new baseline image if needed
